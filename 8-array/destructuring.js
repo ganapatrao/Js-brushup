@@ -22,3 +22,22 @@ console.log(x); // Output: 1
 console.log(y); // Output: 2
 console.log(z); // Output: 3
 console.log(d); // Output: 4
+
+
+//Techniques:
+// swapping
+let a1 = 1;
+let b1 = 2;
+[a1, b1] = [b1, a1];
+
+//function returning array
+function returnArray() {
+    return [1, 2, 3];
+  }
+  
+  const [a11, b11, c11] = returnArray();
+
+
+
+
+//
