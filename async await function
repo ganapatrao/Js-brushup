@@ -28,6 +28,7 @@ const demo = new Promise((resolve, reject) => {
 async function getResult(){
     let result = await demo // await infront promise
     console.log(result)
+consoel.log("Hi")
 }
 
 getResult()
