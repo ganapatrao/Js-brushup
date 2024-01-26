@@ -26,10 +26,18 @@ const demo = new Promise((resolve, reject) => {
 // how to use async await
 
 async function getResult(){
+async function getResult(){
+   try{
     let result = await demo // await infront promise
     console.log(result)
 
     console.log("hi")
+   } 
+   catch(error){
+    console.log(error);
+   }
 }
+}
+
 
 getResult()
