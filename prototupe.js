@@ -1,4 +1,6 @@
-The JavaScript prototype property allows you to add new properties to object constructors:
+//The JavaScript prototype property allows you to add new properties to object constructors:
+//https://www.w3schools.com/js/js_object_prototypes.asp
+
 
 // Define a constructor function
 function Person(name, age) {
