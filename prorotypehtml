@@ -1,0 +1,15 @@
+<html>
+  <head> </head>
+  <body>
+    <script>
+      function person() {
+        (this.name = "hk"), (this.country = "India");
+      }
+      person.prototype.age = 25;
+
+      person()
+    </script>
+
+    <div id="details">docu</div>
+  </body>
+</html>
