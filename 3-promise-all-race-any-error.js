@@ -32,15 +32,18 @@ Promise.all([car1, car2, car3])
   .catch((error) => console.log("all error:",error));
 
 /*out put
-  [ 'car 1', 'car 2', 'car 3' ]
+//result is shown when all successful=>  [ 'car 1', 'car 2', 'car 3' ]
   
-  if error it will just  show rejected in the above example
+//  if all rejected or 1 rejected it will just  show top ejected error
+//all error: car 1 rejected
+//same for race
   */
 
 Promise.any([car1, car2, car3])
   .then((result) => console.log("any success:",result))
   .catch((error) => console.log("any error",error));
-
+//o/p=> if all rejected =>  [errors]: [ 'car 1 rejected', 'car 2', 'car 3' ]
+//if any one is successful it will give success result only
 
   Promise.race([car1, car2, car3])
   .then((result) => console.log("race success:",result))
