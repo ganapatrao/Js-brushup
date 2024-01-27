@@ -32,3 +32,38 @@ consoel.log("Hi")
 }
 
 getResult()
+
+
+
+//example 2
+// Function that returns a Promise
+function fetchData() {
+  return new Promise((resolve, reject) => {
+    // Simulating an asynchronous operation, e.g., fetching data from an API
+    setTimeout(() => {
+      const data = { message: 'Data fetched successfully!' };
+
+      // Simulating success
+      resolve(data);
+
+      // Simulating an error
+      // uncomment the next line to simulate an error
+      // reject(new Error('Failed to fetch data!'));
+    }, 2000); // Simulating a 2-second delay
+  });
+}
+
+// Using async/await
+async function fetchDataAsync() {
+  try {
+    // The 'await' keyword is used to wait for the Promise to resolve
+    const result = await fetchData();
+    console.log(result.message);
+  } catch (error) {
+    console.error(error.message);
+  }
+}
+
+// Calling the async function
+fetchDataAsync();
+
