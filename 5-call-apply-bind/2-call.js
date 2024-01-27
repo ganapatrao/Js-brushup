@@ -1,4 +1,4 @@
-//CAll is a function/methode that helps to change the context of the invoking function.
+//CAll is a function/methode that helps to change the context(this value) of the invoking function.
 //In simple words it helps to replace the value of "this" inside a function with what ever value we want
 
 const person = {
@@ -30,3 +30,19 @@ const person3 = {
 
 
 person.fullname.call(person3,"pune")
+
+//CGPT example
+In JavaScript, call, apply, and bind are methods that can be used to manipulate the context (this value) of a function. Here are examples of each
+
+//CALL
+function greet(name) {
+  console.log(`Hello, ${name}! My name is ${this.name}.`);
+}
+
+const person = {
+  name: 'John'
+};
+
+// Using call to invoke the function with a specific 'this' value
+greet.call(person, 'Alice');
+// Output: Hello, Alice! My name is John.
