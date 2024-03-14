@@ -1,6 +1,9 @@
 // At the basic level, the spread operator is used to make a shallow 
 // copy of an array. It can be used to duplicate the elements of an array into a new array:
 //shallow copy or duplicate array
+//spread for preading the functionaly like adding editing modifying the array 
+//sperads the array
+
 const primary =[1,2,3,4,5]
 const result =[...primary]
 

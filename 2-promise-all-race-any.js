@@ -2,8 +2,8 @@
 
 let car1 = new Promise((resolve, reject) => {
   setTimeout(() => {
-    resolve("car 1");
-    //reject("car 1 rejected");
+   // resolve("car 1");
+    reject("car 1 rejected");
   }, 1000);
 });
 

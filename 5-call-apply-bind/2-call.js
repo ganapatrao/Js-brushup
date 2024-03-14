@@ -31,8 +31,7 @@ const person3 = {
 
 person.fullname.call(person3,"pune")
 
-//CGPT example
-In JavaScript, call, apply, and bind are methods that can be used to manipulate the context (this value) of a function. Here are examples of each
+//CGPT exampleIn JavaScript, call, apply, and bind are methods that can be used to manipulate the context (this value) of a function. Here are examples of each
 
 //CALL
 function greet(name) {

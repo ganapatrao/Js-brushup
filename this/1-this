@@ -1,0 +1,23 @@
+//all global variable --windows scope
+//let and const variable can never pe a part of windows
+//all accidental variables goes in windows scope
+//these above can be accessed useing Windows.varName or this.barname
+// this ===windws
+//global in node. js this is windows
+
+
+//scope- accessibility or variable or function within code
+//glabal scope:variables outside function can be accessed from anywhere
+//localscope: variables declared inside a function have local scope
+
+//context -- referes to the value of this
+// --global context --global object --window in browsers, global in Node.js
+// --function context --this referes to that object---specific to function
+// --constructor context --when function is used as constructor 'this' refers to newly created object
+// --explicit context --explicityly set the the context of this using call apply bind
+
+//this.varname => undefined when it is let or constant
+
+//tips on console.log({varname,varcity}) //witht his u will get key and values
+
+//use strict
