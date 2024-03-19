@@ -16,7 +16,7 @@ console.log(combinedArray); // Output: [1, 2, 3, 4, 5, 6]
 
 
 ///
-
+//rest
 function sum(...numbers) {
     return numbers.reduce((acc, num) => acc + num, 0);
   }
