@@ -9,6 +9,10 @@ for(let i=0;i<arraystr.length;i++){
   
     // console.log(x.slice(0,x.length-1) + x[x.length-1].toUpperCase())
 
+    //logic for 1st later upper firt uper
+    //x[0].toUpperCase() + x.slice(1).toLowerCase()
+
+
 }
 console.log(result.join(' '))
 //str = "thiS iS javA"
