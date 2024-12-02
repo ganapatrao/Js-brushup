@@ -3,16 +3,16 @@
 
 // inside NF, inside arrow , after unpackig
 
-var name ="hari"
+var name = "hari";
 
 function testnested() {
   function fullname() {
-    console.log("NF-",this)
-    console.log("NF",this.name); // hari //for nested there is no change for normal function //golabl for nested
+    console.log("NF-", this);
+    console.log("NF", this.name); // hari //for nested there is no change for normal function //golabl for nested
   }
 
   arrowfullname = () => {
-    console.log("arrow-",this)
+    console.log("arrow-", this);
     console.log("arrow->", this.name); //krishna // current execution context
   };
 
@@ -20,7 +20,7 @@ function testnested() {
   arrowfullname();
 }
 
-testnested.call({name:"krishna1"});
+testnested.call({ name: "krishna1" });
 
 // const arrowfunc = {
 //   name: "hari",

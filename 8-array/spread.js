@@ -17,6 +17,9 @@ console.log(combinedArray); // Output: [1, 2, 3, 4, 5, 6]
 
 ///
 //rest
+/*
+sum is a function that uses the rest parameter syntax (...numbers). This syntax allows the function to accept
+ any number of arguments and gather them into an array named numbers.*/
 function sum(...numbers) {
     return numbers.reduce((acc, num) => acc + num, 0);
   }

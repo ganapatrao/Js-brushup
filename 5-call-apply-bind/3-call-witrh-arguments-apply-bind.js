@@ -24,7 +24,7 @@ person.fullName.call(person2,"Goa","India") // first argument for this and the 2
 person.fullName.apply(person2,["Goa2","IndiaAPply"])
 
 //BIND
-//BIND is like call but it returns a function
+//BIND is like call but it returns a function// in other words pass a value for this and call later like callback function 
 //console.log(person.fullName.bind(person2,"Goa","India"))// returns a function //result [Function: bound fullName]
 let result = person.fullName.bind(person2,"Goa","IndiaBind")
 //console.log("result",result); //result [Function: bound fullName]

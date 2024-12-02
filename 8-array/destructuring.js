@@ -4,6 +4,7 @@ const numbers = [1, 2, 3, 4, 5, 6, 7, 8];
 const [a, b, c] = numbers;
 
 
+
 console.log(a, b, c)
 
 
@@ -33,7 +34,8 @@ let b1 = 2;
 
 //function returning array
 function returnArray() {
-    return [1, 2, 3];
+  
+    return [1, 2, 3,4,5];
   }
   
   const [a11, b11, c11] = returnArray();

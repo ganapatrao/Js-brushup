@@ -72,6 +72,6 @@ console.log(text.search("E"))
 //revision
 
 let text2 = 'ABCDEFGHI'
-console.log(text2.slice(2)) ;//CDEFG...// slice from 2 onwards
-console.log(text2.slice(1,2)) ;//B
-console.log(text2.slice(-2)) ;//HI //last 2
+console.log(text2.slice(2)) ;//CDEFG...// slice from 2 onwards // from index
+console.log(text2.slice(1,2)) ;//B // index yo index
+console.log(text2.slice(-2)) ;//HI // 2 count

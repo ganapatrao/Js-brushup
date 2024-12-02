@@ -1,15 +1,17 @@
-let testArray = [29, 10, 14, 37, 14];
+let testArray = [29, 10, 4, 37, 1];
 
+4, 10, 29, 37, 14;
 function selectionsort(data) {
   for (let i = 0; i < data.length - 1; i++) {
+    let minIndex = i;
     for (let j = i + 1; j < data.length; j++) {
-      if (data[i] < data[j]) {
-        let temp = data[i];
-        data[i] = data[j];
-        data[j] = temp;
+      if (data[j] < data[minIndex]) {
+        minIndex = j;
       }
     }
-    console.log(data);
+    let temp = data[minIndex];
+    data[minIndex] = data[i];
+    data[i] = temp;
   }
 
   return data;

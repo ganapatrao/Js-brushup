@@ -1,4 +1,5 @@
 //inner function can access value from outer funtion
+var x= 50;
 function parent() {
   let x = 100;
 
