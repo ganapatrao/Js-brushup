@@ -72,6 +72,26 @@
 // });
 // console.log(hasEven);
 
+//includes
+// const sentence = "JavaScript is amazing.";
+
+// console.log(sentence.includes("javascript")); // false
+// console.log(sentence.includes("JavaScript")); // true
+
+//with array
+// const fruits = ["apple", "banana", "cherry", "date"];
+
+// console.log(fruits.includes("banana")); // true
+// console.log(fruits.includes("grape"));  // fals
+
+
+//Combining includes() with Conditions
+// const names = ["Alice", "Bob", "Charlie", "Diana"];
+
+// const search = "Ali";
+// const filteredNames = names.filter(name => name.includes(search));
+
+// console.log(filteredNames); // ["Alice"]
 
 
 //every() checks if all elements satisfy a condition.
@@ -83,7 +103,7 @@ console.log(allEven);
 
 /*
 Use for loop when you need full control over the iteration process (e.g., breaking out early).
-Use for...of for clean and readable iteration over array elements.
+Use for...of for clean and readable iteration over array elements.// cannot use forloop
 Use forEach() for simple iteration, but be mindful that it doesn’t support break.
 Use map() when you want to transform each element into a new array.
 Use filter() to select elements that pass a test.

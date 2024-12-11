@@ -3,5 +3,5 @@
 //we cannot use foreach for object as it is for array
 
 
-//used mostly for in
+//used mostly==> for in
 //or object1.key and object1.values

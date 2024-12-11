@@ -62,6 +62,8 @@
 // let numbers = [1, 2, 3];
 // let newArray = [...numbers, 4, 5];
 
+// let numbers = 1, 2, 3;
+// let newArray = [4, 5,...nmbers] ;
 // console.log(newArray); // Output: [1, 2, 3, 4, 5]
 
 // // in array The spread operator won’t prevent duplicate values from being added.
