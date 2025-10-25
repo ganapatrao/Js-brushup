@@ -38,10 +38,10 @@ function greet(name) {
   console.log(`Hello, ${name}! My name is ${this.name}.`);
 }
 
-const person = {
+const personx = {
   name: 'John'
 };
 
 // Using call to invoke the function with a specific 'this' value
-greet.call(person, 'Alice');
+greet.call(personx, 'Alice');
 // Output: Hello, Alice! My name is John.

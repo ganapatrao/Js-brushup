@@ -48,16 +48,16 @@ greet.apply(person, ['Alice', 30]);
 // Output: Hello, Alice! My name is John and I am 30 years old.
 
 //bind
-unction greet(name) {
+function greet(name) {
   console.log(`Hello, ${name}! My name is ${this.name}.`);
 }
 
-const person = {
+const personx = {
   name: 'John'
 };
 
 // Using bind to create a new function with a specific 'this' value
-const greetPerson = greet.bind(person);
+const greetPerson = greet.bind(personx);
 
 // Invoking the new function
 greetPerson('Alice');
