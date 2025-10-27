@@ -1,15 +1,4 @@
 
-
-
-
-
-
-
-
-
-
-
-
 let str1 = "Hello";
 let str2 = "World";
 
@@ -86,14 +75,22 @@ let strSplit = "Hello, world!";
 let arrSplit = strSplit.split(", ");
 console.log(arrSplit); // ["Hello", "world!"]   
 
-//replace
-replaceall
+//replace  // only 1st occurance
+let strReplace = "Hello, world world!";
+let newstr =strReplace.replace("world", "JavaScript");
+console.log(newstr);
+
+//replaceall -- replaces all occurances
+
+let strReplaceAll = "Hello, world world!";
+let newstrAll = strReplace.replaceAll("world", "JavaScript");
+console.log(newstrAll); // "Hello, JavaScript JavaScript!"
 
 
-
-
-
-
+//repeat
+let strrepeat ="hello "
+let newstrrepeat = strrepeat.repeat(3);
+console.log(newstrrepeat); // "hello hello hello "
 
 
 
